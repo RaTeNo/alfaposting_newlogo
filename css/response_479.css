@@ -1,0 +1,215 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo a,
+    header .logo img
+    {
+        height: 37px;
+        width: 196px;
+    }
+
+    br {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row > *
+    {
+        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
+    }
+
+
+    /*--------------------
+        Create company
+    --------------------*/
+    .create_company:before
+    {
+        bottom: 15px;
+    }
+
+
+    .create_company .image
+    {
+        width: 156px;
+    }
+
+    .create_company .link
+    {
+        margin-right: 0;
+    }
+
+
+
+    /*----------
+        Join
+    ----------*/
+    .join .block_title
+    {
+        padding: 0 48px;
+    }
+
+
+
+    /*------------------
+        Cookie agree
+    ------------------*/
+    .cookie_agree
+    {
+        bottom: 12px;
+
+        max-width: calc(100% - 24px);
+        padding: 20px;
+    }
+
+    .cookie_agree .title
+    {
+        font-size: 17px;
+        line-height: 19px;
+    }
+
+    .cookie_agree .desc
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .perekhvat .info .info_new {
+        font-size: 14px;        
+        margin: 0 auto 15px;
+        display: block;
+        width: 103px;
+    }
+    .perekhvat .info .title {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .perekhvat .pluses > * {
+        margin-bottom: 21px;
+    }
+    .perekhvat {
+        padding: 15px 0;
+    }
+
+
+    .autoprodvijenie .info .info_new {
+        font-size: 14px;        
+        margin: 0 auto 15px;
+        display: block;
+        width: 103px;
+    }
+    .autoprodvijenie .info .title {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+ 
+    .autoprodvijenie .pluses > * {
+        margin-bottom: 21px;
+    }
+    .autoprodvijenie {
+        padding: 15px 0;
+    }
+
+
+
+
+
+    .create_company .title_mob {
+        display: block !important;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.8px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    
+    
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col_left,
+    footer .col_right
+    {
+        width: 100%;
+    }
+
+    footer .col_right
+    {
+        margin-top: 20px;
+    }
+
+
+    footer .logo img
+    {
+        margin: 0 auto;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: center;
+    }
+
+
+    footer .contacts
+    {
+        align-items: center;
+        align-content: center;
+    }
+
+
+    footer .privacy_policy
+    {
+        text-align: center;
+    }
+
+
+    .why {
+        padding: 40px 0 0;
+    }
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 24px;
+    }
+}

@@ -1,0 +1,515 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo a,
+    header .logo img
+    {
+        height: 48px;
+    }
+
+
+    header .lang
+    {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    header .lang .current
+    {
+        font-size: 14px;
+        line-height: 16px;
+
+        height: 44px;
+    }
+
+    header .lang .current img,
+    header .lang .mini_modal > * img
+    {
+        width: 22px;
+        margin-right: 6px;
+    }
+
+    header .lang .mini_modal > *
+    {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    header .account_link
+    {
+        width: 100%;
+        margin-top: 16px;
+
+        text-align: center;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 172px;
+        padding-bottom: 0;
+    }
+
+    .first_section:before
+    {
+        height: 120%;
+    }
+
+    .first_section:after
+    {
+        display: none;
+    }
+
+
+    .first_section .info
+    {
+        width: 100%;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+    .first_section .title
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .first_section .form
+    {
+        width: 100%;
+    }
+
+
+    .first_section .image
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------------
+        Universal agency
+    ----------------------*/
+    .universal_agency .image
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .universal_agency .info
+    {
+        width: 100%;
+    }
+
+    .universal_agency .title
+    {
+        font-size: 30px;
+        line-height: 36px;
+
+        text-align: center;
+    }
+
+    .universal_agency .desc
+    {
+        text-align: center;
+    }
+
+
+    .universal_agency .account_link
+    {
+        width: 100%;
+        margin-top: 32px;
+
+        text-align: center;
+    }
+
+
+
+    /*----------------------
+        Transparent work
+    ----------------------*/
+    .transparent_work .info
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .transparent_work .title
+    {
+        font-size: 30px;
+        line-height: 36px;
+
+        text-align: center;
+    }
+
+    .transparent_work .desc
+    {
+        text-align: center;
+    }
+
+
+    .transparent_work .image
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why .block_title
+    {
+        font-size: 30px;
+        line-height: 36px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .why .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .why .row > *
+    {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .why .row_bottom .item {
+        margin-left: 0px;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .why .row_bottom .item_description {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .why .row_bottom {
+        margin-top: 40px;
+    }
+    .why .row .item {
+        width: 100%;
+    }
+    
+
+
+    /*--------------------
+        Create company
+    --------------------*/
+    .create_company:before
+    {
+        top: auto;
+        bottom: 45px;
+    }
+
+
+    .create_company .title
+    {
+        display: none;
+    }
+
+
+    .create_company .image
+    {
+        order: 2;
+    }
+
+    .create_company .link
+    {
+        margin: 0 auto;
+
+        order: 3;
+    }
+
+
+    /*----------------
+        Any device
+    ----------------*/
+    .any_device .data
+    {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+
+    .any_device .info
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .any_device .logo img
+    {
+        height: 48px;
+        margin: 0 auto;
+    }
+
+
+    .any_device .title
+    {
+        font-size: 27px;
+        line-height: 33px;
+
+        margin-bottom: 24px;
+
+        text-align: center;
+    }
+
+
+    .any_device .items > *
+    {
+        width: calc(100% - 35px);
+
+        justify-content: center;
+    }
+
+
+    .any_device .img
+    {
+        position: relative;
+        right: 0;
+
+        width: 75%;
+        margin: 32px auto 0;
+    }
+
+
+
+    /*------------------
+        Publications
+    ------------------*/
+    .publications .block_title
+    {
+        font-size: 30px;
+        line-height: 36px;
+
+        margin-bottom: 36px;
+    }
+
+
+
+    /*----------
+        Join
+    ----------*/
+    .join .block_title
+    {
+        font-size: 30px;
+        line-height: 36px;
+
+        margin-top: 20px;
+        padding: 0 64px;
+    }
+
+
+    .join .block_desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .join .form
+    {
+        width: 320px;
+        margin-top: 32px;
+    }
+
+    .join .form .line
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .join .form .submit
+    {
+        position: relative;
+
+        width: 100%;
+    }
+
+
+    .perekhvat .row {
+        flex-direction: column;
+    }
+    .perekhvat .image {
+        width: 100%;
+        margin-left:0;
+    }
+    .perekhvat .info {
+        width: 100%;
+    }
+    .perekhvat {
+        padding: 70px 0;
+    }
+
+    .perekhvat .info .desc{
+        text-align: center;
+    }
+
+
+    .autoprodvijenie .row {
+        flex-direction: column;
+    }
+    .autoprodvijenie .image {
+        width: 100%;
+        margin-left:0;
+    }
+    .autoprodvijenie .info {
+        width: 100%;
+        padding-top:0px;
+    }
+    .autoprodvijenie {
+        padding: 70px 0;
+    }
+
+    .autoprodvijenie .info .desc{
+        text-align: center;
+    }
+
+
+    .title_mob {
+        display: block !important;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.8px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    .create_company .title_mob {
+        width: 100%;
+    }
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .copyright
+    {
+        width: 212px;
+    }
+
+
+
+    footer .logo img
+    {
+        height: 37px;
+        width: 237px;
+    }
+
+
+    footer .contacts
+    {
+        flex-direction: column;
+
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+
+    footer .contacts > * + *
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    footer .privacy_policy
+    {
+        font-size: 14px;
+        line-height: 16px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 20px;
+    }
+
+    .fancybox-slide--html .fancybox-close-small
+    {
+        top: 2px;
+        right: 2px;
+
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    .modal
+    {
+        padding: 40px 32px;
+    }
+
+
+
+    #success_modal .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    #success_modal .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}

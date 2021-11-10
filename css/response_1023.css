@@ -1,0 +1,563 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .logo a,
+    header .logo img
+    {
+        height: 52px;
+    }
+
+
+    header .lang .current
+    {
+        font-size: 15px;
+        line-height: 17px;
+
+        height: 48px;
+    }
+
+    header .lang .mini_modal > *
+    {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+
+    header .account_link
+    {
+        font-size: 15px;
+        line-height: 17px;
+
+        padding: 12px 20px 13px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 40px;
+        padding: 112px 0 40px;
+    }
+
+
+    .first_section .info
+    {
+        width: 316px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .first_section .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 20px;
+    }
+
+    .first_section .form
+    {
+        width: 280px;
+        margin-top: 32px;
+    }
+
+    .first_section .form .line
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .first_section .form .submit
+    {
+        position: relative;
+
+        width: 100%;
+    }
+
+
+    .first_section .image
+    {
+        width: calc(100% - 312px);
+        margin-right: -24px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------------
+        Universal agency
+    ----------------------*/
+    .universal_agency
+    {
+        padding: 40px 0;
+    }
+
+
+    .universal_agency .image
+    {
+        width: calc(100% - 348px);
+        margin-left: -40px;
+    }
+
+
+    .universal_agency .info
+    {
+        width: 352px;
+        padding: 0;
+    }
+
+
+    .universal_agency .title
+    {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .universal_agency .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 20px;
+    }
+
+
+    .universal_agency .pluses
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 24px;
+    }
+
+
+    .universal_agency .account_link
+    {
+        margin-top: 36px;
+        padding: 14px 24px 16px;
+    }
+
+
+
+    /*----------------------
+        Transparent work
+    ----------------------*/
+    .transparent_work
+    {
+        padding: 40px 0;
+    }
+
+
+    .transparent_work .info
+    {
+        width: 340px;
+        padding-top: 0;
+    }
+
+    .transparent_work .title
+    {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .transparent_work .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .transparent_work .pluses
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 24px;
+    }
+
+
+    .transparent_work .image
+    {
+        width: calc(100% - 340px);
+        margin-top: -16px;
+        margin-bottom: -10px;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why
+    {
+        padding: 40px 0 0;
+    }
+
+
+    .why .block_title
+    {
+        font-size: 34px;
+        line-height: 40px;
+
+        margin-bottom: 44px;
+    }
+
+
+    .why .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .why .row > *
+    {
+        max-width: calc(33.333% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+    .why .row_bottom {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .why .item
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .why .item .icon
+    {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 24px;
+    }
+
+    .why .item .icon img
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .why .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------------
+        Create company
+    --------------------*/
+    .create_company
+    {
+        padding: 40px 0 0;
+    }
+
+    .create_company .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    /*----------------
+        Any device
+    ----------------*/
+    .any_device
+    {
+        padding: 40px 0;
+    }
+
+
+    .any_device .data
+    {
+        padding: 52px 0;
+    }
+
+
+    .any_device .info
+    {
+        width: 300px;
+    }
+
+
+    .any_device .logo
+    {
+        margin-bottom: 20px;
+    }
+
+    .any_device .logo img
+    {
+        height: 52px;
+    }
+
+    .any_device .title
+    {
+        font-size: 30px;
+        line-height: 36px;
+
+        margin-bottom: 28px;
+    }
+
+    .any_device .items
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-bottom: -16px;
+        margin-left: -24px;
+    }
+
+    .any_device .items > *
+    {
+        max-width: calc(100% - 24px);
+        margin-bottom: 16px;
+        margin-left: 24px;
+    }
+
+
+    .any_device .img
+    {
+        width: 427px;
+        margin-right: -428px;
+    }
+
+
+
+    /*------------------
+        Publications
+    ------------------*/
+    .publications
+    {
+        padding: 40px 0;
+    }
+
+
+    .publications .block_title
+    {
+        font-size: 34px;
+        line-height: 40px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .publications .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .publications .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .publications .item .name
+    {
+        font-size: 18px;
+    }
+
+    .publications .item .date
+    {
+        margin-top: 4px;
+    }
+
+    .publications .item .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*----------
+        Join
+    ----------*/
+    .join
+    {
+        padding: 40px 0 80px;
+    }
+
+    .join .block_title
+    {
+        font-size: 34px;
+        line-height: 40px;
+
+        margin-top: 52px;
+    }
+
+    .join .block_desc
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    /*------------------
+        Cookie agree
+    ------------------*/
+    .cookie_agree .title
+    {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .cookie_agree .desc
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-top: 8px;
+    }
+
+
+    .cookie_agree > .close
+    {
+        top: 4px;
+        right: 6px;
+    }
+
+    .cookie_agree > .close:before,
+    .cookie_agree > .close:after
+    {
+        width: 24px;
+        height: 2px;
+    }
+
+
+    .perekhvat .image img {
+        width: 100%;
+    }
+    .perekhvat .image {
+        width: calc(100% - 350px);
+    }
+    .perekhvat .info {
+        width: 370px;
+    }
+    .perekhvat .info .title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .perekhvat .info .desc {
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    .perekhvat .pluses {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 24px;
+    }
+    .perekhvat .pluses > * {
+        margin-bottom: 9px;
+    }
+
+
+    .autoprodvijenie .image img {
+        width: 100%;
+    }
+    .autoprodvijenie .image {
+        width: calc(100% - 350px);
+    }
+    .autoprodvijenie .info {
+        width: 370px;
+    }
+    .autoprodvijenie .info .title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .autoprodvijenie .info .desc {
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    .autoprodvijenie .pluses {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 24px;
+    }
+    .autoprodvijenie .pluses > * {
+        margin-bottom: 9px;
+    }
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 30px;
+    }
+
+
+
+    .modal
+    {
+        width: 560px;
+    }
+
+
+
+    #success_modal .icon
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    #success_modal .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    #success_modal .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
